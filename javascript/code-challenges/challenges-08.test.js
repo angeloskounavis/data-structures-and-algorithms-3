@@ -256,7 +256,6 @@ describe('Testing challenge 5', () => {
 
     expect(isCapitalized('Given by our hand in the meadow that is called Runnymede, between Windsor and Staines, on the fifteenth day of June in the seventeenth year of our reign (i.e. 1215: the new regnal year began on 28 May).')).toStrictEqual(['Given', 'Runnymede', 'Windsor', 'Staines', 'June', 'May']);
 
-    // expect(isCapitalized('these words are all failures')).toStrictEqual([]); we are directed to return an array of matches, not an empty array if no matches
   });
 });
 
@@ -273,7 +272,6 @@ describe('Testing challenge 6', () => {
     );
     expect(citiesAtoJ(cities).length).toStrictEqual(5);
 
-    // expect(citiesAtoJ([])).toStrictEqual([]); this is not a good test, you would want a function to return a falsy value for no matches but 'Values not on the list of falsy values in JavaScript are called truthy values and include the empty array []'
     expect(
       citiesAtoJ([
         "Albuquerque",
