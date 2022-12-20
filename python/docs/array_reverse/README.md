@@ -3,7 +3,7 @@ Write a function called `reverseArray` which takes an array as an argument. With
 
 ## Whiteboard Process
 
-![whiteboard](challenge_01.png)
+![whiteboard](array_reverse.png)
 
 ## Approach & Efficiency
 I took the approach of iterating backwards through the input array and appending each element onto a new array. This took advantage of the fact that Python allows negative indexing.
