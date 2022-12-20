@@ -3,7 +3,7 @@
 ## Language: `Python`
 
 ## Table of Contents
-- [array_reverse]()
+- [array_reverse](https://github.com/dennis-nichols/data-structures-and-algorithms/tree/main/python/docs/array_reverse#readme)
 
 ### Folder and Challenge Setup
 
