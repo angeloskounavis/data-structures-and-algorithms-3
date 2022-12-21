@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [array_reverse](https://github.com/dennis-nichols/data-structures-and-algorithms/tree/main/python/docs/array_reverse#readme)
+- [array_shift_reverse](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/array_insert_shift/README.md)
 
 ### Folder and Challenge Setup
 
