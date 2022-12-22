@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [array_reverse](https://github.com/dennis-nichols/data-structures-and-algorithms/tree/main/python/docs/array_reverse#readme)
-- [array_shift_reverse](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/array_insert_shift/README.md)
+- [array_insert_shift](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/array_insert_shift/README.md)
 - [array_binary_search](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/array-binary-search/README.md)
 
 ### Folder and Challenge Setup
