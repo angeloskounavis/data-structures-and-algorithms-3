@@ -41,3 +41,13 @@ class LinkedList:
                 return True
             current = current.next
         return False
+
+    def append(self, new_value):
+        pass
+
+    def insert_before(self, value, new_value):
+        pass
+
+    def insert_after(self, value, new_value):
+        pass
+    
