@@ -86,6 +86,22 @@ class LinkedList:
 
         raise TargetError('Target not found.')
 
+    def kth_from_end(self, k):
+        new_list = []
+        current = self.head
+
+        if k < 0:
+            raise TargetError('k is under range. Input an integer >= 0')
+
+        while current:
+            new_list.append(current.value)
+            current = current.next
+
+        if abs(-1 - k) > len(new_list):
+            raise TargetError('k is out of range')
+        else:
+            return new_list[-1 - k]
+
 
 class TargetError(Exception):
     def __init__(self, message):
