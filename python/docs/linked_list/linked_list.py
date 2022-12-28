@@ -21,9 +21,9 @@ class LinkedList:
             node_list = []
             current = self.head
             while current:
-                node_list.append('{' + str(current.val) + '}')
+                node_list.append('{ ' + str(current.val) + ' }')
                 current = current.next
-            node_list.append('None')
+            node_list.append('Null')
             self.collection = ' -> '.join(node_list)
             self.up_to_date = True
             return self.collection
