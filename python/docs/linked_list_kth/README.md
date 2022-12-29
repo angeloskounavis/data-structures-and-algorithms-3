@@ -3,7 +3,7 @@ Add a new method to the linked list class that returns the kth value from the en
 
 
 ## Whiteboard Process
-[](linked-list-kth.png)
+![](linked-list-kth.png)
 
 ## Approach & Efficiency
 - This method require list traversal and creating a new python list from the values of the linked list
