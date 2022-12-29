@@ -87,6 +87,9 @@ class LinkedList:
         raise TargetError('Target not found.')
 
     def kth_from_end(self, k):
+        '''
+        Returns the value of the kth node from the tail of the linked list.
+        '''
         new_list = []
         current = self.head
 
