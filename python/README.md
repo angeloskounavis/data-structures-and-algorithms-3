@@ -8,6 +8,7 @@
 - [array_binary_search](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/array-binary-search/README.md)
 - [linked_list](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/linked_list/README.md)
 - [linked_list_insertions](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/linked_list_insertions/README.md)
+- [linked_list_kth](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/linked_list_kth/README.md)
 
 ### Folder and Challenge Setup
 
