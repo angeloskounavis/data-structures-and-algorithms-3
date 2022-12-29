@@ -6,7 +6,7 @@ Add three new methods to the Linked List class:
 
 
 ## Whiteboard Process
-[](linked-list-insertions.png)
+![](linked-list-insertions.png)
 
 ## Approach & Efficiency
 - All new methods require list traversal
