@@ -1,11 +1,5 @@
 from data_structures.linked_list import LinkedList, Node
 
-# always start with a
-
-# Test lists
-# A [1, 2, 3]:
-# B ["a", "b", "c"]
-
 
 def zip_lists(a, b):
     """
