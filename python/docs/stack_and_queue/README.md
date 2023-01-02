@@ -3,6 +3,10 @@
 Implemented the stack and queue data structures (DSs). These two DSs are based on the same types of nodes that are used in
 a linked list. A stack is a DS which follows last-in-first-out for addition and removal of nodes and has only top attribute. A queue is a DS which follows first-in-first-out and knows about both its front and rear nodes.
 
+https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/data_structures/stack.py
+
+https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/data_structures/queue.py
+
 ## Challenge
 
 For the above DSs implement methods for the following actions:
