@@ -1,61 +1,26 @@
-# Stacks and Queues
+# Challenge Summary
+Create a function that zips two linked lists together, always starting with 'list_a'.
 
-Implemented the stack and queue data structures (DSs). These two DSs are based on the same types of nodes that are used in
-a linked list. A stack is a DS which follows last-in-first-out for addition and removal of nodes and has only top attribute. A queue is a DS which follows first-in-first-out and knows about both its front and rear nodes.
 
-## Challenge
-
-For the above DSs implement methods for the following actions:
-
-- Node addition (push and enqueue)
-- Node removal (pop and dequeue)
-- Peeking the top or front nodes
-- Checking if the DS is empty
+## Whiteboard Process
+![](linked-list-zip.png)
 
 ## Approach & Efficiency
+- This method requires alternatively traversing two lists. A flag variable whose status is differentially set in the while loop enables the alternation of adding nodes from the 2 lists.
 
-The efficiency of all methods implemented so far is O(n) for both time and space due to the use of the top / front / rear attributes.
+### Efficiency
+- Function is O(n) for TIME because it requires traversing each list.
+- Methods are O(1) for SPACE since it only requires holding pointers to head nodes and a flag variable in memory.
 
-## API
+## Solution
 
-### Stack
+```python
+# list_a: (1) -> (2) -> None
+# list_b: (3) -> (4) -> None
 
-**push**
-Arguments: value
-adds a new node with that value to the top of the stack with an O(1) Time performance.
+zip_lists(list_a, list_b)
 
-**pop**
-Arguments: none
-Returns: the value from node from the top of the stack
-Removes the node from the top of the stack
-Should raise exception when called on empty stack
+# it should return (1) -> (3) -> (2) -> (4) -> None
+```
+## [Link to code](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/code_challenges/linked_list_zip.py)
 
-**peek**
-Arguments: none
-Returns: Value of the node located at the top of the stack
-Should raise exception when called on empty stack
-
-**is empty**
-Arguments: none
-Returns: Boolean indicating whether or not the stack is empty.
-
-### Queue
-
-**enqueue**
-Arguments: value
-adds a new node with that value to the back of the queue with an O(1) Time performance.
-
-**dequeue**
-Arguments: none
-Returns: the value from node from the front of the queue
-Removes the node from the front of the queue
-Should raise exception when called on empty queue
-
-**peek**
-Arguments: none
-Returns: Value of the node located at the front of the queue
-Should raise exception when called on empty stack
-
-**is empty**
-Arguments: none
-Returns: Boolean indicating whether or not the queue is empty
