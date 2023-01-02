@@ -23,3 +23,4 @@ zip_lists(list_a, list_b)
 # it should return (1) -> (3) -> (2) -> (4) -> None
 ```
 ## [Link to code](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/code_challenges/linked_list_zip.py)
+
