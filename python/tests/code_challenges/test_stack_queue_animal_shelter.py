@@ -1,8 +1,8 @@
 import pytest
 from code_challenges.stack_queue_animal_shelter import AnimalShelter, Dog, Cat
+from data_structures.linked_list import TargetError
 
 
-@pytest.mark.skip("TODO")
 def test_single_cat():
     shelter = AnimalShelter()
     cat = Cat()
@@ -12,7 +12,6 @@ def test_single_cat():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_single_dog():
     shelter = AnimalShelter()
     dog = Dog()
@@ -22,7 +21,6 @@ def test_single_dog():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_dog_preferred_but_cat_in_front():
     shelter = AnimalShelter()
     cat = Cat()
@@ -34,7 +32,6 @@ def test_dog_preferred_but_cat_in_front():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_dog_then_cat():
     shelter = AnimalShelter()
     cat = Cat()
@@ -47,7 +44,6 @@ def test_dog_then_cat():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_bad_pref():
     shelter = AnimalShelter()
     cat = Cat()
@@ -58,3 +54,14 @@ def test_bad_pref():
     actual = shelter.dequeue("lizard")
     expected = None
     assert expected == actual
+
+
+def test_no_prefs_available():
+    shelter = AnimalShelter()
+    dog = Dog()
+    shelter.enqueue(dog)
+    shelter.enqueue(dog)
+    with pytest.raises(TargetError) as e:
+        shelter.dequeue('cat')
+
+    assert str(e.value) == "There are no cat's. Come back another time."
