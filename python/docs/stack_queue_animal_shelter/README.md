@@ -1,4 +1,4 @@
-# Stacks and Queues
+# Stacks and Queue: Animal Shelter
 
 Implemented a special queue data structures for an animal shelter (DSs).
 https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/code_challenges/stack_queue_animal_shelter.py
