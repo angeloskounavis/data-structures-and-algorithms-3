@@ -7,6 +7,8 @@ class AnimalShelter(Queue):
         super().__init__()
 
     def dequeue(self, pref):
+        if pref not in ['dog', 'cat']:
+            return None
         if str(self.front.value) == pref:
             return super().dequeue()
         else:
@@ -32,13 +34,13 @@ class Cat:
         return 'cat'
 
 
-shelter = AnimalShelter()
-cat = Cat()
-dog = Dog()
-shelter.enqueue(cat)
-shelter.enqueue(dog)
-actual = shelter.dequeue("dog")
-expected = dog
-
-print(actual)
-print(expected)
+# shelter = AnimalShelter()
+# cat = Cat()
+# dog = Dog()
+# shelter.enqueue(cat)
+# shelter.enqueue(dog)
+# actual = shelter.dequeue("dog")
+# expected = dog
+#
+# print(actual)
+# print(expected)
