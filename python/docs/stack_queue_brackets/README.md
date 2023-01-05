@@ -13,3 +13,11 @@ The approach uses a stack to keep track of open brackets and each time a closed 
 The time efficiency of the special method is O(n) since each character in the string must be visited.
 The space efficiency is O(1) since it doesn't change in relation to the input - this is because the stack used only knows its top node.
 
+## Solution
+
+## Solution
+
+```python
+validate_brackets('{[]}')
+# should return True
+```

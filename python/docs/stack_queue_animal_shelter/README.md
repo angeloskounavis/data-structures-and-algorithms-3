@@ -30,3 +30,14 @@ Returns: the value of the first node in the queue that meets the preference.
 Removes the node from the queue.
 Should raise exception when called on empty queue or when the pref is not found.
 Returns null if pref is invalid.
+
+## Solution
+
+```python
+shelter =  AnimalShelter()
+shelter.enqueue('cat')
+shelter.enqueue('cat')
+shelter.enqueue('dog')
+shelter.dequeue('dog')
+#should return 'dog'
+```
