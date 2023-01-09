@@ -5,6 +5,10 @@ Trees are an important variation of the graph data structure. They consist of no
 A binary tree is a type of tree wherein each node only has up to 2 children: left or right.
 A special variation of the binary tree is the binary search tree wherein the insertion of nodes is adjusted such that the left node only receives values which are less than the root and the right node only receives values which are greater than the root.
 
+**Code**
+https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/data_structures/binary_tree.py
+https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/data_structures/binary_search_tree.py
+
 ## Challenge
 Implement a binary tree.
 - It should have methods for preorder, in-order, and postorder traversal.
