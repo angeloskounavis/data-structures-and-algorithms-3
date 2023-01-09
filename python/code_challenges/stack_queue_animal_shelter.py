@@ -1,4 +1,4 @@
-from data_structures.queue import Queue
+from data_structures.queue_ import Queue
 from data_structures.linked_list import TargetError
 
 
