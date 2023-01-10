@@ -1,4 +1,4 @@
-# Stack Queue Brackets
+# Tree Max
 ## Challenge
 Implement a find_maximum_value function that returns the max value stored in a binary tree.
 https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/data_structures/binary_tree.py
