@@ -25,7 +25,7 @@ def test_post_order(tree):
 
 
 def test_tree_max(numeric_tree):
-    actual = numeric_tree.find_max_value()
+    actual = numeric_tree.find_maximum_value()
     expected = 9
     assert actual == expected
 
