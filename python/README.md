@@ -14,6 +14,7 @@
 - [stack_queue_brackets](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/stack_queue_brackets/README.md)
 - [trees](https://github.com/dennis-nichols/data-structures-and-algorithms/tree/main/python/docs/trees)
 - [tree-max](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/tree_max/README.md)
+- [tree-fizz-buzz](https://github.com/dennis-nichols/data-structures-and-algorithms/blob/main/python/docs/tree_fizz_buzz/README.md)
 
 ### Folder and Challenge Setup
 
