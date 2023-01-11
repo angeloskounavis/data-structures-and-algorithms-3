@@ -26,9 +26,14 @@ class Queue:
         if self.front is None:
             raise InvalidOperationError
         else:
-            dequeued = self.front.value
+            if self.front == self.rear:
+                dequeued = self.front
+                self.front = self.rear = None
+                return dequeued.value
+
+            dequeued = self.front
             self.front = self.front.next
-            return dequeued
+            return dequeued.value
 
     def peek(self):
 
