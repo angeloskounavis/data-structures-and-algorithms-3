@@ -1,7 +1,6 @@
 # Blog Notes: Insertion Sort
 
-
-The psedocode below is an example of the **insertion sort** algorithm:
+The pseudocode below is an example of the **insertion sort** algorithm:
 ```
  InsertionSort(int[] arr)
 
@@ -34,16 +33,17 @@ The following steps explain what is happening in the pseudocode above assuming y
 
 4. `WHILE j >= 0 AND temp < arr[j]` => 0 (TRUE) & 4 < 8 (TRUE)
     - This line starts a while loop that will continue until `j` is less than 0, or until `temp` is no longer less than the element at index `j` of the array.
+      ![](insert_3.png)
 
 5. `arr[j + 1] <-- arr[j]` => arr[1] = 8
     - Inside the while loop, this line shifts the element at index `j` of the array to the right by one position.
-
-6. `j <-- j - 1 (-1)`
+      ![](insert_4.png)
+6. `j <-- j - 1` => 0 -1 => -1
     - Inside the while loop, this line decrements the value of `j` by 1, which will be used as the next comparison index in the following iteration of the while loop.
 
 7. `arr[j + 1] <-- temp` arr[0] => 4
     - After the while loop, this line assigns the value of `temp` to the current position at `j+1` , which is the final position for the current element.
-
+      ![](insert_5.png)
 8. The for loop continues until all elements are sorted.
 
 In the first iteration of the loop, 4 is less than 8 and j = 0, so the loop will swap 4 with 8 and the final array will be [4, 8, 23, 42, 16, 15].
