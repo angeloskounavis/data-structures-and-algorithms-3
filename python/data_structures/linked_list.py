@@ -6,6 +6,9 @@ class Node:
     def __repr__(self):
         return f'<Node(val={self.value}, next={self.next})>'
 
+    def display(self):
+        return self.value
+
 
 class LinkedList:
     def __init__(self, head=None):
@@ -104,6 +107,25 @@ class LinkedList:
             raise TargetError('k is out of range')
         else:
             return new_list[-1 - k]
+
+    ## Methods for Hash Table
+
+    def get(self, target):
+        current = self.head
+        while current:
+            if current.value[0] == target:
+                return current.value[1]
+            current = current.next
+        return None
+
+    def display(self):
+        display_list = []
+        current = self.head
+        while current:
+            display_list.append(current.display())
+            current = current.next
+        # display_list = sorted(display_list, key=lambda x: x[0], reverse=True)
+        return display_list
 
 
 class TargetError(Exception):
